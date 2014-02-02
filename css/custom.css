@@ -1,0 +1,378 @@
+/* 
+*********************************
+***		=header
+*********************************
+*/
+
+h1 {
+	font-size: 48px;
+	height: 50px;
+	margin: 0 auto;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	color: #5db9d1;
+	text-align: center;
+}
+
+#logo {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #5db9d1;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 300;
+	text-align: center;
+	margin: 8px auto 10px auto;
+}
+
+#navbar {
+	text-align: center;
+	color: #02161b;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+	margin-bottom: 20px;
+}
+
+.navbuttons {
+	padding: 0;
+}
+
+#navbar a {
+    color: #02161b;
+    position: relative;
+    text-decoration: none;
+}
+
+#navbar a:hover:after {
+    content: url(../img/navunderline25x5.png);
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+
+/* 
+*********************************
+***		=carousel
+*********************************
+*/
+
+.carousel {position: relative;}
+.carousel img {max-width: 100%}
+#carouselid {position: absolute;}
+.carousel h1 {
+	position: absolute;
+	width: 700px;
+	background: rgba(104, 197, 166, 0.7);
+	color: #002d58;
+	font-size: 36px;
+	left: 50%;
+	margin-left: -350px;
+	top: 40px;
+}
+
+#mobile {top: 100px;}
+
+#leftarrow {
+	position: absolute;
+	width: 54px;
+	height: 54px;
+	margin-top: -27px;
+	margin-left: -27px;
+	top: 50%;
+	left: 37px;
+}
+
+#getaquote {
+	position: absolute;
+	margin-top: -50px;
+	margin-left: -50px;
+	top: 50%;
+	left: 50%;
+}
+
+#rightarrow {
+	position: absolute;
+	width: 54px;
+	height: 54px;
+	margin-top: -27px;
+	margin-right: -27px;
+	top: 50%;
+	right: 37px;
+}
+
+/* 
+*********************************
+***		=about us
+*********************************
+*/
+
+#aboutus {
+	margin: auto;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #002d58;
+}
+
+#aboutusunderline {
+	width: 140px;
+	height: 3px;
+	background-color: #002d58;
+}
+
+#weare {
+	font-family: "Comfortaa", cursive;
+	color: #002d58;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	left: 0;
+	right: 0;
+	letter-spacing: 0.04em;
+}
+
+{
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	margin-left: -35%;
+	bottom: 5%;
+}
+
+.gadgets {margin: 0 auto;}
+
+/* 
+*********************************
+***		=services
+*********************************
+*/
+
+#ourservices {
+	margin: auto;
+	margin-top: 30px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #68c5a6;
+}
+
+#servicesunderline {
+	width: 200px;
+	height: 3px;
+	background-color: #68c5a6;
+}
+
+.servicecategories {
+	color: #68c5a6;
+	font-family: "Comfortaa", cursive;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.servicelist {
+	list-style-type: none;
+	color: #ffffff;
+	font-family: "Comfortaa", cursive;
+	padding-bottom: 10px;
+	padding-left: 0;
+	margin-top: 50px;
+}
+
+.servicelist li {
+	text-align: center;
+	margin: 0 0 6px 0;
+	font-size: 16px;
+}
+
+.serviceslistunderline {
+	width: 240px;
+	height: 3px;
+	background-color: #68c5a6;
+}
+
+.servicesrow {
+	margin-bottom: 80px;
+}
+
+/* 
+*********************************
+***		=team
+*********************************
+*/
+
+#team {
+	margin: 30px auto 0 auto;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #68c5a6;
+}
+
+#teamunderline {
+	width: 240px;
+	height: 3px;
+	background-color: #68c5a6;
+}
+
+.teammates {
+	margin-top: 80px;
+	padding: 0 5px;
+}
+
+.names {
+	color: #68c5a6;
+	font-family: "Comfortaa", cursive;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 34px;
+}
+
+.teaminfos {
+	list-style-type: none;
+	color: #002d58;
+	font-family: "Comfortaa", cursive;
+	padding-bottom: 10px;
+	padding-left: 0;
+	margin-top: 20px;
+}
+
+.teaminfos li {
+	text-align: center;
+	margin: 0 0 6px 0;
+	font-size: 16px;
+}
+
+.teammatesunderline {
+	width: 240px;
+	height: 3px;
+	background-color: #68c5a6;
+}
+
+.teamrow {
+	margin-bottom: 80px;
+}
+
+/* 
+*********************************
+***		=contact us
+*********************************
+*/
+
+#contactus {
+	margin: auto;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #002d58;
+}
+
+#contactusunderline {
+	width: 160px;
+	height: 3px;
+	background-color: #002d58;
+}
+
+.contactinfos {
+	list-style-type: none;
+	color: #002d58;
+	font-family: "Comfortaa", cursive;
+	padding-bottom: 10px;
+	padding-left: 0;
+	margin-top: 50px;
+}
+
+.contactinfos li {
+	text-align: center;
+	margin: 0 0 6px 0;
+	font-size: 20px;
+}
+
+#followus {
+	margin: auto;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #002d58;
+}
+
+#followusunderline {
+	width: 140px;
+	height: 3px;
+	background-color: #002d58;
+}
+
+.followusrow {margin-top: 40px;}
+
+#twitter {
+	position: absolute;
+	right: 0;
+}
+
+#behance {
+	position: absolute;
+	left: 0;
+}
+
+.socialmedia {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* 
+*********************************
+***		=clients
+*********************************
+*/
+
+#ourclients {
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #68c5a6;
+	padding-top: 30px;
+	margin-bottom: 0;
+}
+
+#clientsunderline {
+	width: 280px;
+	height: 3px;
+	background-color: #68c5a6;
+	margin-bottom: 50px;
+}
+
+.clientsrow {
+	padding-bottom: 100px;
+}
+
+/* 
+*********************************
+***		=footer
+*********************************
+*/
+
+.footer {
+	background-color: #002d58;
+	position: relative;
+}
+
+.footer p {
+	font-family: "Comfortaa", cursive;
+	font-size: 16px;
+	color: #68c5a6;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#tothetop {
+	position: absolute;
+	left: 50%;
+	margin-left: -34px;
+	top: -34px;
+}
